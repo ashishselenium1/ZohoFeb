@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Zoho CRM">
+  <test name="Create Lead Test">
+      <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.zoho.testcases.Session">
+          <methods>
+              <include name="doLogin"></include>
+          </methods>
+      </class>
+      <class name="com.zoho.testcases.TopMenu">
+          <methods>
+              <include name="gotoTopMenuLink"></include>
+          </methods>
+      </class>
+      <class name="com.zoho.testcases.Leads">
+          <methods>
+              <include name="createLead"></include>
+              <include name="verifyLeadCreation"></include>
+          </methods>
+          
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Delete Lead Test">
+             <parameter name="browser" value="Mozilla"></parameter>
+       
+       <classes>
+      <class name="com.zoho.testcases.Leads">
+          <methods>
+              <include name="deleteLead"></include>
+          </methods>
+      </class>
+    </classes>
+   </test>
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,36 @@
+
+Maven project
+Dynamic - easy to change
+Data - external files
+Supports multiple environments
+Run tests in a batch
+Report failures
+Optionally run
+HTML reports
+Screenshots of pages
+GRID
+GIT+JENKINS
+
+
+Create Lead
+Create Contact
+
+
+
+Buy a movie ticket online
+
+// Better way
+January - Select a movie + select seats + make a payment from card + Booking conf number
+March  - Select a movie + select seats + make a payment from card + Scan code
+May - Select a movie + select seats + make a payment from card/googlepay + Scan code
+July - Select a movie + select seats + make a payment from card/googlepay + coupon code + Scan code
+
+
+
+
+
+
+
+
+
+

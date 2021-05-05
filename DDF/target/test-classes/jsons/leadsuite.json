@@ -1,0 +1,48 @@
+{
+  "suiitename": "Lead Suite",
+  "data_file": "Data.xlsx",
+  "browsers": [
+    "Chrome",
+    "Mozilla"
+  ],
+  "testcases": [
+    {
+ 
+      "testname": "Create Lead Test",
+      "classes": [
+        {
+          "name": "com.zoho.testcases.Session",
+          "methods": [
+            "doLogin"
+          ]
+        },
+        {
+          "name": "com.zoho.testcases.TopMenu",
+          "methods": [
+            "gotoTopMenuLink"
+          ]
+        },
+        {
+          "name": "com.zoho.testcases.Leads",
+          "methods": [
+            "createLead",
+            "verifyLeadCreation"
+          ]
+        }
+      ],
+      "dataflag": "CreateLeadTest"
+    },
+    {
+            "testname": "Delete Lead Test",
+"classes": [
+        {
+          "name": "com.zoho.testcases.Leads",
+          "methods": [
+            "deleteLead"
+          ]
+        }
+      ],
+      "dataflag": "DeleteLeadTest"
+    }
+  ]
+}
